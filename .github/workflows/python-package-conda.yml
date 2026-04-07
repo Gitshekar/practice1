@@ -16,7 +16,8 @@ jobs:
         
 
   job2:
-    runs-on: job1
+    runs-on: ubuntu-latest
+    needs: job1
     steps:
       - name: download artifactfile
         uses: actions/download-artifact@v4
