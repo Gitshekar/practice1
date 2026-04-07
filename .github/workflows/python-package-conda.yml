@@ -9,7 +9,11 @@ jobs:
       - name: create file
         run: echo "This is Job 1 running" > data.txt
       - name: upload file as artifact
-        run: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
+        with:
+          name: datafile
+          path: data.txt
+        
 
   job2:
     runs-on: job1
