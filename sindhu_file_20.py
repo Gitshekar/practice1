@@ -1,6 +1,6 @@
 print("hello world")
 print("this is Sindhu")
-a=10
-b=20
-c=a+b
-print(c)
+
+def add(a,b):
+    return a+b
+add(10,20)
