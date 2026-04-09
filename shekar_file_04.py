@@ -7,3 +7,4 @@ def cube(num):
 
 print(square(5)) 
 print(cube(3))
+print(square(10))
