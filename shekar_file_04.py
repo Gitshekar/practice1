@@ -1,2 +1,4 @@
-print("Hello World")
-print("This is Rajashekar")
+def square(num):
+    return num * num
+
+print(square(5))
